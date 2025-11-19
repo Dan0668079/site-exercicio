@@ -1,15 +1,16 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding-top: 50px;
-    background-color: #f0f0f0;
+/* Estilo para o botão */
+#meuBotao {
+    background-color: #28a745; /* Cor de fundo verde */
+    color: white; /* Texto branco */
+    padding: 10px 20px; /* Preenchimento */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de "mão" ao passar por cima */
+    font-size: 1em; /* Tamanho da fonte */
+    margin-top: 20px; /* Margem superior para separar do parágrafo */
+    transition: background-color 0.3s ease; /* Transição suave da cor */
 }
 
-h1 {
-    color: #3498db;
-}
-
-p {
-    color: #2c3e50;
-    font-size: 1.2em;
+#meuBotao:hover {
+    background-color: #218838; /* Cor um pouco mais escura ao passar o mouse */
 }
